@@ -151,4 +151,10 @@ position: relative;
 top:5px;
 }
 
- 
+/* --------------------food-foobar-------- */
+.food{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    animation: slide-in-left 1s ease-out;
+}
