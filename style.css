@@ -193,6 +193,26 @@ top:5px;
     text-shadow: 0 0 12px red;
     animation: text-flicker 2s linear infinite;
 }
+@keyframes text-flicker{
+    0%{
+        text-shadow: 0 0 32px red;
+    }
+    50%{
+       text-shadow: 0 0 64px red;
+    }
+    100%{
+        text-shadow: 0 0 32px red;
+    }
+}
+.order p {
+    position: relative;
+    right: 5rem;
+    width: 11%;
+    font-size: 1.1rem;
+    animation: slide-in-right 1s ease-out;
+}
+
+
 
 
 
