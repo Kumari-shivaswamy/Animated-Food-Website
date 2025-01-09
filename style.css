@@ -176,6 +176,25 @@ top:5px;
     font-size: 1.2rem;
     animation: fade-in 1s ease-out;
 }
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.order h1{
+
+    font-size: 5rem;
+    position: relative;
+    width: 197%;
+    right: 88px;
+    text-shadow: 0 0 12px red;
+    animation: text-flicker 2s linear infinite;
+}
+
+
 
  
 
