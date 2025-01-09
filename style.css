@@ -158,3 +158,24 @@ top:5px;
     justify-content: space-around;
     animation: slide-in-left 1s ease-out;
 }
+@keyframes slide-in-left{
+    0%{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.order{
+    position: absolute;
+    top: 15rem;
+    left: 61rem;
+    width: 281%;
+    font-size: 1.2rem;
+    animation: fade-in 1s ease-out;
+}
+
+ 
+
