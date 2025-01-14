@@ -253,6 +253,21 @@ margin-right: 27px;
 animation: rotate 2s linear infinite;
 
 }
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.sp{
+    position: absolute;
+    left: -80px;
+    top: 15rem;
+    font-size: 12px;
+    animation: bounce 1s infinite;
+}
 
 
 
