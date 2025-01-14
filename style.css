@@ -268,7 +268,25 @@ animation: rotate 2s linear infinite;
     font-size: 12px;
     animation: bounce 1s infinite;
 }
+@keyframes bounce{
+    0%,
+    100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-10px);    
+    }
+}
 
+.foodbar {
+    position: absolute;
+    top: 0;
+    left: 13rem;
+    background-color: rgb(47, 45, 45);
+    width: 25%;
+    height: 69vh;
+    animation: slide-in-left 1s ease-out;
+}
 
 
 
