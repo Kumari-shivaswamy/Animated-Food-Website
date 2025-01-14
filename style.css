@@ -248,7 +248,10 @@ top:5px;
     position: relative;
     left: -77px;
     top: 27px;
-    
+    font-size: 2.1rem;
+margin-right: 27px;
+animation: rotate 2s linear infinite;
+
 }
 
 
