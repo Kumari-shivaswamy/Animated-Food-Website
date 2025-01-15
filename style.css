@@ -298,6 +298,21 @@ animation: rotate 2s linear infinite;
     }
 }
 
+.foodbar span{
+    color: white;
+    position: relative;
+    left: 6rem;
+    font-size: 3rem;
+    animation: fade-in 1s ease-out;
+}
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 
 
  
