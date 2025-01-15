@@ -348,6 +348,25 @@ animation: rotate 2s linear infinite;
         transform: translateY(-10px);
     }
 }
+.images span{
+    position: relative;
+    top: 3rem;
+    right: 35px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    animation: slide-in-right 1s ease-out;
+}
+@keyframes slide-in-right{
+    0%{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100%{ 
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
 
 
  
