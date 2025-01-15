@@ -313,6 +313,25 @@ animation: rotate 2s linear infinite;
         opacity: 1;
     }
 }
+@keyframes slide-in-bottom{
+    0%{
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.images{
+    width: 156px;
+    height: 23vh;
+    text-align: center;
+    background-color: rgb(47 45 45);
+    border-radius: 10px;
+    animation: fade-in 1s ease-out;
+    box-shadow: 12px 14px 58px black;
+}
 
 
  
