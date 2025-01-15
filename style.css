@@ -332,6 +332,22 @@ animation: rotate 2s linear infinite;
     animation: fade-in 1s ease-out;
     box-shadow: 12px 14px 58px black;
 }
+.images img{
+    position: absolute;
+    width: 13%;
+    top: -2rem;
+    border-radius: 5px;
+    animation: bounce 1s infinite;
+}
+@keyframes bounce{
+    0%,
+    100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+}
 
 
  
