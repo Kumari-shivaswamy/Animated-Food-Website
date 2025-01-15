@@ -368,6 +368,14 @@ animation: rotate 2s linear infinite;
     }
 }
 
+.images p{
+    position: relative;
+    top: 5rem;
+    color: white;
+    margin: -19px 0;
+    font-size: 14px;
+    animation: fade-in 1s ease-out;
+}
 
  
 
