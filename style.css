@@ -376,6 +376,18 @@ animation: rotate 2s linear infinite;
     font-size: 14px;
     animation: fade-in 1s ease-out;
 }
-
- 
-
+.rating{
+    color: gold;
+    margin-top: 106px;
+    animation: scale-in 1s ease-out;
+}
+@keyframes scale-in{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
