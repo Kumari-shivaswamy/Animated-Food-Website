@@ -332,6 +332,17 @@ animation: rotate 2s linear infinite;
     animation: fade-in 1s ease-out;
     box-shadow: 12px 14px 58px black;
 }
+ @keyframes slide-in {
+    0%{
+        transform: translate(-100%);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translate(0);
+        opacity: 1;
+    }
+ }
 .images img{
     position: absolute;
     width: 13%;
