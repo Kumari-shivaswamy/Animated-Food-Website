@@ -122,6 +122,7 @@ header{
 .design a:hover,
 .top a:hover{
     text-shadow: 0 0 10px red;
+    transition: all .5s ease;
 }
 
 @keyframes slide-in-right{
